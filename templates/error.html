@@ -1,0 +1,1 @@
+{% extends 'base.html' %}{% block heading %}Request error{% endblock %}{% block content %}<section class="panel"><h2>Unable to process request</h2><p>{{ message }}</p><a class="button" href="{{ url_for('dashboard') }}">Return to overview</a></section>{% endblock %}
